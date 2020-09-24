@@ -16,9 +16,11 @@ public class Main {
        
         total = n1 - n2;
        if (total>18){
-         JOptionPane.showInputDialog(nome +" Voce pode tirar CNH " + "Idade: " + total);
+        JOptionPane.showMessageDialog(null, nome +" Voce pode tirar CNH " + "Idade: " + total, "Título da Janela",
+JOptionPane.QUESTION_MESSAGE);
        }else{
-         JOptionPane.showInputDialog(nome +" Voce nao pode tirar CNH" + "Idade: " + total);
+         JOptionPane.showMessageDialog(null, nome +" Voce não pode tirar a CNH " + "Idade: " + total, "Título da Janela",
+JOptionPane.QUESTION_MESSAGE);
        }
        
     }
